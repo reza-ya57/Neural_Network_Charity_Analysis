@@ -5,7 +5,7 @@
 Alphabet Soup is a nonprofit organization which is helping the organization that protect the environment, improve people's well-being, and unify the world.
 Soup has araised and donated over 10 billion dollars in the past 20 years. This money has been used to invest in lifesaving technogolies and organize reforestation groups around the world. In this study we are working on analysis the entire organization to analyze the impact of each donation so the Alphabet Soup group can ensure that the foundation's money is being used effectively. This can help the company's president to predict which organizations are worth dontating to and which are too high risk
 
-## Results: 
+## Modeling process description and Results: 
 
 #### Data source that we used contains the following info:
 
@@ -22,11 +22,11 @@ Soup has araised and donated over 10 billion dollars in the past 20 years. This 
 - IS_SUCCESSFUL—Was the money used effectively
 - Using bulleted lists and images to support your answers, address the following questions.
 ### Preproccessing the dataset
-#### Target Variable
+#### Target Variable:
 - IS_SUCCESSFUL choosed for target variable
 
-#### Features variables
-##### Below variables choosed for features to run the model:
+#### Features variables:
+
 - APPLICATION_TYPE—Alphabet Soup application type
 - AFFILIATION—Affiliated sector of industry
 - CLASSIFICATION—Government organization classification
@@ -37,8 +37,8 @@ Soup has araised and donated over 10 billion dollars in the past 20 years. This 
 - SPECIAL_CONSIDERATIONS—Special consideration for application
 - ASK_AMT—Funding amount requested
 
-#### NON useful variables
-##### For this study EIN and NAME-Identification is not useful and we removed those from input data.
+#### NON useful variables:
+- For this study EIN and NAME-Identification is not useful and we removed those from input data.
 ##### After removing non useful data, we used binning method to balance the data in better shape so our modeling have better output. 
 #### By finding the total unique value in each columns we check the density of each category and based on the result recategorized the value in each column.
 
