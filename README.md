@@ -44,11 +44,11 @@ Soup has araised and donated over 10 billion dollars in the past 20 years. This 
 
 ![Uniq_value](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/unique_values.png)
 
-[APP_uniqe](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/App_value_count.png)
+![APP_uniqe](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/App_value_count.png)
 
-[APP_Dens](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/app_dens.png)
+![APP_Dens](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/app_dens.png)
 
-[Class_Dens](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/class_dense.png)
+![Class_Dens](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/class_dense.png)
 
 
 #### Next step is to find any categorical data in dataset and encode them to binary value.
@@ -76,7 +76,7 @@ Structure of our the model is as below:
 ### Optimize the model
 #### To get the better performance from the model, we made some changes in our model
 - In input data we reclassified the ASK_AMT column because of big difference amount of unique value compare to other columns. 
-![ASK_AMT]()
+![ASK_AMT](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/unique_values.png)
 
 - We add two more hidden layer to determine if the accuracy of the model increased or not
 
@@ -86,7 +86,7 @@ Structure of our the model is as below:
 
 ![struct_opt](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/structure_opt.png)
 
-[Accuracy_opt](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/accurancy_opt.png)
+![Accuracy_opt](https://github.com/reza-ya57/Neural_Network_Charity_Analysis/blob/main/images/accurancy_opt.png)
 
 
 
